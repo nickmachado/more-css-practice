@@ -1,1 +1,48 @@
-/* Add your CSS here */
+/* code for later
+
+img {
+position: absolute;
+z-index: -1;
+width: 1em 1em 1em 1em;
+}
+*/
+
+button {
+  border-radius: 4px;
+  padding: 15px;
+  width: 100%;
+  background-color: #F75D59;
+  color: white;
+}
+
+.imgsize {
+  width: 130px;
+  height: 90px;
+}
+
+input[type=date], select, textarea {
+  width: 43%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type=number], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
