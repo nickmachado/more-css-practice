@@ -1,1 +1,35 @@
-/* Add your CSS here */
+h1 {
+  font-family: 'Monda', sans-serif;
+  font-size: 100px;
+  margin-right: 5em;
+  margin-bottom: -3.5px;
+}
+
+div {
+  display: inline-block;
+}
+
+img {
+  display: block;
+  margin-left: 1em;
+  margin-right: auto;
+  margin-bottom: 2em;
+  height: 380px;
+  width: 650px
+}
+
+a {
+  margin-left: 2.5em;
+  display: inline-block;
+  background-color: #971A44;
+  color: white;
+  padding: 1.5em;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+p {
+  padding-top: 1em;
+  margin-right: 40%;
+  font-family: 'Didact Gothic', sans-serif;
+}
