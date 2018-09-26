@@ -1,1 +1,27 @@
 /* Add your CSS here */
+.button {
+   border: solid #ff5a5f 2px;
+   border-radius: 2px;
+   width: 100%;
+   background-color: #ff5a5f;
+   color: white;
+         }
+.full {
+   width: 100%;
+      }
+.half {
+   width: 500px;
+   box-sizing: border-box;
+   display: inline-block;
+      }
+label {
+   display: block;
+       }
+label input {
+   display: block;
+            }
+.footer-box {
+   border: ;
+   height: 100px;
+   box-shadow: 5px red;
+  }

@@ -1,1 +1,22 @@
 /* Add your CSS here */
+h1, h2 {
+   text-align: center;
+       }
+.center {
+   text-align: center;
+        }
+.pic {
+   float: left;
+     }
+.left {
+   display: inline;
+      }
+.right {
+   display: inline;
+       }
+.p {
+   width: 48%;
+  }
+p {
+   display: inline;
+  }
