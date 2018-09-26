@@ -1,0 +1,41 @@
+h1 {
+  font-family: 'Kanit', sans-serif;
+  margin-top: 2px;
+  color: darkorange;
+  font-size: 50px;
+}
+.h2font{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.h2fix {
+  color: grey;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+div {
+  float: left;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 10px;
+}
+
+.bottomborder {
+  border-bottom: 1px solid lightgrey;
+  padding: 2px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.closerToh2 {
+  margin-bottom: -18px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+}
