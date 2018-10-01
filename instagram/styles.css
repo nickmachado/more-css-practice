@@ -1,1 +1,48 @@
-/* Add your CSS here */
+* {
+
+}
+
+html {
+  background: #fefefe;
+  font-family: sans-serif;
+  color: #555;
+}
+
+body {
+  background: #fff;
+  border: 1px solid #ccc;
+  margin: 1em;
+  position: relative;
+}
+
+body::after {
+  content: "";
+  display: double;
+  clear: both;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+main {
+  margin-left: 20%;
+  border-left: 1px solid #ccc;
+}
+
+nav, main {
+  padding: 1rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  color: #aaa;
+}
+
+li ul li {
+  color: #222;
+}

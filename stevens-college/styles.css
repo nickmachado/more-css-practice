@@ -1,7 +1,12 @@
+body {
+  margin: 3em auto;
+  width: 75%;
+  max-width: 800px
+}
+
 h1 {
   font-family: 'Monda', sans-serif;
-  font-size: 100px;
-  margin-right: 5em;
+  font-size: 60px;
   margin-bottom: -3.5px;
 }
 
@@ -15,21 +20,27 @@ img {
   margin-right: auto;
   margin-bottom: 2em;
   height: 380px;
-  width: 650px
+  width: 680px
+}
+
+nav {
+  text-align: center;
 }
 
 a {
+  text-transform: uppercase;
+  text-decoration: none;
   margin-left: 2.5em;
-  display: inline-block;
+  display: inline;
   background-color: #971A44;
   color: white;
-  padding: 1.5em;
+  padding: .5em;
   box-sizing: border-box;
   font-size: 20px;
 }
 
 p {
   padding-top: 1em;
-  margin-right: 40%;
+  margin: auto;
   font-family: 'Didact Gothic', sans-serif;
 }

@@ -15,35 +15,41 @@
        <h1>Book unique homes and experiences.</h1>
      </header>
      <main>
-       <label>WHERE
-          <input type="text" name="Location" placeholder="Anywhere">
-        </label></br>
+       <form action="#">
+          <label>WHERE
+            <input type="text" name="Location" placeholder="Anywhere">
+          </label>
+          <label class="label">CHECK IN
+          </label>
+          <label class="label">CHECK OUT
+          </label>
+<!--..these are inputs for the "check in" and "checkout" labels..-->
+            <input class="radiusleft" type="date" name="when?">
+            <input class="radiusright" type="date" name="when?">
+          <label>GUEST
+            <input type="number" min="1" name="Guests" placeholder="1 guest">
+          </label>
 
-        <label>CHECK IN
-          <input type="date" name="when?" placeholder="mm/dd/yyyy">
-        </label>
+          <button type="submit">search</button>
+        </form>
 
-        <label>CHECK OUT
-          <input type="date" name="when?" placeholder="mm/dd/yyyy">
-        </label></br>
+        <section>
+          <h2>Explore Airbnb</h2>
 
-        <label>GUEST
-          <input type="number" name="Guests" placeholder="1 guest">
-        </label></br>
+          <a href="#">
+            <img class="imgsize" src="Images/hotelbed.jpg" alt="A hotel bed">
 
-        <button>search</button>
-
-        <h2>Explore Airbnb</h2>
-
-        <a href="homes">Homes
-          <img class="imgsize" src="Images/hotelbed.jpg" alt="A hotel bed">
-        </a>
-        <a href="experiences">Experiences
-          <img class="imgsize" src="Images/bikes.jpg" alt="People riding bikes">
-        </a>
-        <a href="restaurants">Restaurants
-          <img class="imgsize" class="imagesleft" src="Images/foodtop.jpg" alt="A picture of food">
-      </a>
+            Homes
+          </a>
+          <a href="#">
+            <img class="imgsize" src="Images/bikes.jpg" alt="People riding bikes">
+            Experiences
+          </a>
+          <a href="#">
+            <img class="imgsize" class="imagesleft" src="Images/foodtop.jpg" alt="A picture of food">
+            Restaurants
+          </a>
+        </section>
     </main>
   </body>
 </html>

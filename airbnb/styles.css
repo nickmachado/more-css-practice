@@ -1,50 +1,89 @@
-/* code for later
-
-img {
-position: absolute;
-z-index: -1;
-width: 1em 1em 1em 1em;
+* {
+  box-sizing: border-box;
 }
-*/
+
+body {
+  margin: 0;
+}
+h1 {
+ background: url("https://cdn.discordapp.com/attachments/494549958834389004/494935664375103488/bridge.jpg");
+ background-position: center, center;
+ background-size: cover;
+ color: #fff;
+ padding: 2rem 1rem;
+ margin: 0 0 2rem 0;
+}
 
 
+input[type=text]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type=date]{
+  float: left;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+.radiusleft {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.radiusright {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.label {
+  display: inline-block;
+  width: 49%;
+}
+
+input[type=number]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
 
 button {
   border-radius: 4px;
   padding: 15px;
-  width: 100%;
+  width: 99.9%;
   background-color: #F75D59;
   color: white;
 }
 
 .imgsize {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 130px;
   height: 90px;
 }
 
-input[type=date], select, textarea {
-  width: 43%;
-  padding: 12px;
+a {
+  display: inline-block;
   border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-top: 6px;
-  margin-bottom: 16px;
+  text-decoration: none;
+  padding: 2.5rem 0 2rem 150px;
+  position: relative;
+  width: 33%;
+  height: 91px;
 }
 
-input[type=text], select, textarea {
-  width: 98.5%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-top: 6px;
-  margin-bottom: 16px;
-}
-
-input[type=number], select, textarea {
-  width: 98.5%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-top: 6px;
-  margin-bottom: 16px;
+a:hover {
+  text-decoration: underline;
 }
